@@ -1,6 +1,6 @@
 //  * Name: Dave Boku
 //  * Project: To Do List Project
-//  * File: index.html
+//  * File: index.js
 //  * Date: June, 2023
 
 let taskList = document.getElementById("task-list");
