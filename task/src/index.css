@@ -1,0 +1,171 @@
+/*
+ * Name: Dave Boku
+ * Project: To Do List Project
+ * File: index.html
+ * Date: June, 2023
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@200&family=Public+Sans&display=swap');
+
+@font-face {
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+}
+
+body {
+    background-color: #FBFBF9;
+}
+
+.wrapper {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 500px;
+    width: 35vw;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+
+h3 {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.content-container {
+    border-radius: 20px; /* Same border radius as the wrapper */
+    overflow: hidden; /* Ensure the content within doesn't overflow */
+}
+
+.container {
+    width: 35vw;
+    /*height: 100px;*/
+    border: none;
+    /*border-radius: 20px;*/
+    background-color: #F7F7F2;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+#input-task {
+    margin-left: 40px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background: none;
+    color: black;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid black;
+    width: 300px;
+    /*    Gotta use vw for this*/
+}
+
+#add-task-button {
+    width: 8em;
+    height: 2em;
+    cursor: pointer;
+    background-color: #F1F8F8;
+    color: black;
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 0.9em;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+}
+
+#task-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.delete-btn {
+    width: 22px;
+    height: 22px;
+    padding: 0;
+    font-size: 15px;
+    line-height: 0;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(220, 20, 60);
+    border-radius: 50%;
+    outline: 0;
+    border: 0;
+    transition: 0.2s;
+}
+
+.delete-btn:hover {
+    cursor: pointer;
+    background-color: rgb(220, 20, 60, 0.8);
+}
+
+li {
+    font-family: 'Public Sans', sans-serif;
+    display: grid;
+    grid-template-columns: 25px 1fr 100px;
+    column-gap: 10px;
+    align-items: center;
+    padding: 2px;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+    margin-right: 4px;
+}
+
+input[type="checkbox"]:hover {
+    cursor: pointer;
+}
+
+li.completed > span {
+    text-decoration: line-through;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+.footer_floating {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    margin-top: 0vh;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(10, 8, 8);
+}
+
+.footer_footnote {
+    font-size: 1rem;
+    color: #e6e6e6;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    /* padding: 6px; */
+    width: 200px;
+    padding-left: 20px;
+}
+
+.footer_icons, .footer_links, .footer_logo {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.footer_icons {
+    display: flex;
+    /* padding: 6px; */
+    color: #e6e6e6;
+    gap: 20px;
+    font-size: 2;
+    margin-left: auto;
+    padding-right: 50px;
+}
+
