@@ -8,7 +8,7 @@ The To Do List Web App is a straightforward and intuitive tool designed to help 
 To get started with the To Do List Web App locally, follow these steps:
 
 1. Clone the repository:
-git clone https://github.com/your-username/to-do-list-web-app.git
+git clone https://github.com/dave-sbs/to-do-list-web-app.git
 
 2. Navigate to the project directory:
 cd to-do-list-web-app/task/src
