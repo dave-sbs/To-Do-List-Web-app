@@ -51,6 +51,7 @@ This project is licensed under the MIT License.
 - All open-source learning websites and sources.
   
 ## Contact
-For any questions, feedback, or collaborations, feel free to reach out:
+For any questions, feedback, or collaborations, feel free to reach out: 
 - Email: dsboku26@colby.edu
+- LinkedIn: https://www.linkedin.com/in/dawit-dave-boku-10b7a6252/
 - Website: https://dave-boku.super.site/
