@@ -13,7 +13,11 @@ git clone https://github.com/dave-sbs/to-do-list-web-app.git
 2. Navigate to the project directory:
 cd to-do-list-web-app/task/src
 
-3.Open index.html in your preferred web browser.
+3. Open project on your code editor (preferably VS Code. Unfortunately, I don't know if the other editors have the extension I mention below)
+
+4. Go to extensions and download open in browser extension. (built by TechER)
+
+5. Once downloaded, go back to index.html, right click and find option that says 'Open In Other Browsers'. Choose a browser of your choice. You will be redirected to the web app.
 
 ## Usage
 Once the web app is running, follow these instructions to effectively use it:
