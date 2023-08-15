@@ -1,5 +1,5 @@
 # To Do List Web app
- A simple to do list web app built using Javascript, HTML, and CSS.
+ A To Do list web app built using Javascript, HTML, and CSS.
 
 ## Project Description
 The To Do List Web App is a straightforward and intuitive tool designed to help users manage their tasks efficiently. With its clean and minimalistic user interface, the app allows users to add, remove, and mark tasks as complete. It provides a seamless experience for organizing daily tasks and staying on top of deadlines.
@@ -13,14 +13,13 @@ git clone https://github.com/dave-sbs/to-do-list-web-app.git
 2. Navigate to the project directory:
 cd to-do-list-web-app/task/src
 
-3. Open the project on your code editor (preferably VS Code. Unfortunately, I am not sure if other code editors have the extension I mention below)
+3. Open the project on your code editor (Preferably VS Code. Unfortunately, I am not sure if other code editors have the extension I mention below)
 
 4. Go to the Extensions marketplace (it can be found on the left-hand side of your window) and download 'Open in browser' extension.
 
 5. Once downloaded,
-- Go back to index.html
-- Right-click,
-- Find the option that says 'Open In Other Browsers'.
+- Open index.html on VS Code
+- Right-click and find the option that says 'Open In Other Browsers'.
 - Choose a browser of your choice. You will be redirected to the web app.
 
 ## Usage
@@ -42,6 +41,7 @@ The To Do List Web App is built using the following technologies:
 - Add tasks to the list.
 - Mark tasks as complete.
 - Remove tasks from the list.
+- Save tasks on local browser storage for easy retrieval if tab is refreshed or closed.
 
 ## Contributing
 Contributions are welcome! If you would like to contribute to the project, please follow these guidelines:
